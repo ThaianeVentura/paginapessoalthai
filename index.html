@@ -3,45 +3,85 @@
      <head>
          <meta charset="UTF-8"/>
          <title>Thaiane Ventura</title>
+         <link rel="stylesheet" href="style.css" />
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
      </head>
      <body>
-       <header>
-         <h1>Thaiane Ventura</h1>
+       <header id="menu">
+         <h1 class="logo">Thaiane Ventura</h1>
+         <nav class="navegacao">
+           <ul>
+             <li>Sobre Mim</li>
+             <li>Formação</li>
+             <li>Experiências</li>
+             <li>Contato</li>
+           </ul>
+         </nav>
        </header>
        <main>
-        <section>
-        <h2>Sobre mim</h2>
-        <img src="Foto.jpg" alt="Foto da Thaiane usando um macacão verde e uma blusa branca" width="200" />
-         <p>
-          Sou <strong>Analista de testes de Software</strong>, moro no Rio de Janeiro e sou apaixonada pela minha família.   
-         </p>
-         <p>Minha frase favorita é:
-            <cite> Ninguém vai bater tão duro como a vida. Mas não se trata de bater duro, se trata de quanto você aguenta apanhar e seguir em frente.</cite>
-         </p>
-         </section>
-         <section>
-         <h3>Coisas que mais gosto de fazer</h3>
-         <ul>
-           <li>Viajar com minha família</li>
-           <li>Aprender coisas novas</li>
-           <li>Fazer longas caminhadas</li>
-           <li>Assistir filmes e séries</li>
-           <li>Ouvir música</li>
-           </li>
-         </ul>
-         </section>
-         <section>
-          <h4>Entre em contato comigo</h4>
-            <form>
-              <label = for="nome">Nome: </label>
-              <input type="text" id="nome" name="name" placeholder="Digite o seu nome" /><br />
-             
-              <label = for="email">E-mail: </label>
-              <input type="text" id="email" name="email" placeholder="Digite o seu e-mail" /><br />
+        <section id="sobre">
+        <img class="sobre-imagem" src="imagens/Foto.jpg" alt="Foto da Thaiane usando um macacão verde e uma blusa branca" />
 
-              <label = for="mensagem">Mensagem: </label><br />
-              <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" rows="4"></textarea><br />
-               
+        <h2 class="sobre-nome">Thaiane Ventura</h2>
+        <h3 class="sobre-titulo">Analista de Testes e Qualidade de Software</h3>
+
+         <p class="sobre-descricao">
+          Sou <strong>Analista de testes</strong>, moro no Rio de Janeiro <br>Apaixonada pelo que faço e entusiasta em tecnologia   
+         </p>
+         </section>
+         <section id="formacao">
+         <h2 class="formacao-titulo">Formação</h2>
+
+         <div class="formacao-lista">
+         <h3>Técnico em Desesvolvimento de Sistemas</h3>
+         <a href="https://portal.ifsuldeminas.edu.br/index.php" target="_blank">Instituto Federal do Sul de Minas Gerais</a>
+         <p></p>
+         <h3>Pós-graduação em Engenharia de Sofware com ênfase em Qualidade e teste de Software</h3>
+         <a href="https://www.faculdadevincit.edu.br/" target="_blank">Faculdade VINCIT</a>
+         <p></p>
+         <h3>Bacharelado em Administração de Empresas</h3>
+         <a href="https://uniesp.edu.br/sites/riodejaneiro/" target="_blank">UNIESP SA</a>
+         </div>
+
+         </section>
+
+         <section id="experiencias">
+         <h2 class="experiencia-titulo">Experiências</h2>
+
+         <div class="experiencia-lista">
+         <h3>Analista de Testes</h3>
+         <a href="" target="_blank">MXM Jetax Sistemas</a>
+         <p></p>
+         <h3>Analista de Suporte ERP</h3>
+         <a href="" target="_blank">MXM Jetax Sistemas</a>
+         <p></p>
+         <h3>Atendente de Suporte a Sistemas</h3>
+         <a href="" target="_blank">Nasajon Sistemas</a>
+         </div>
+         </section>
+
+         <section id="contato">
+          <h2 class="contato-titulo">Entre em contato comigo</h2>
+            <form class="contato-formulario">
+              <div class="contato-grupoinput">
+                <div class="contato-input">
+                <label = for="nome">Nome: </label>
+                <input type="text" id="nome" name="name" placeholder="Digite o seu nome" />
+                </div>
+
+                <div class="contato-input">
+                <label = for="email">E-mail: </label>
+                <input type="text" id="email" name="email" placeholder="Digite o seu e-mail" />
+                </div>
+              </div>
+
+               <div class="contato-input">
+                <label = for="mensagem">Mensagem: </label>
+                <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" rows="4"></textarea>
+               </div>
+
               <button type="submit">Enviar</button>
             </form>
          </section>
