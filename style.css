@@ -52,13 +52,13 @@ body {
 }
 
 .sobre-nome {
-    color: #938DF8;
+    color: #938DF8;  
     font-size:36px;
     margin-top: 20px;
 
 }
 .sobre-titulo {
-    color: #828282;
+    color: #423c3c;
     font-size: 24px;
     margin-top: 10px;
 
@@ -89,7 +89,7 @@ body {
 
 .formacao-lista h3 {
     font-size: 20px;
-    color: #828282;
+    color: #423c3c;
     margin-bottom: 10px;
     width: 500px;
 
@@ -129,7 +129,7 @@ body {
 
 .experiencia-lista h3 {
     font-size: 20px;
-    color: #828282;
+    color: #423c3c;
     margin-bottom: 10px;
     width: 500px;
 
